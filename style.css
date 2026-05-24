@@ -73,7 +73,7 @@ nav ul a:hover {color: var(--light-blue);}
     margin-bottom: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.05;
     letter-spacing: -1px;
     color: var(--white);
@@ -82,7 +82,7 @@ nav ul a:hover {color: var(--light-blue);}
 #hero-sub {
     font-size: clamp(1rem, 2.5vw, 1.25rem);
     color: rgba(245,245,240,0.7);
-    max-width: 800px;
+    max-width: 700px;
     line-height: 1.2;
     margin: 1rem auto 2.5rem;
     margin-top: 30px;
