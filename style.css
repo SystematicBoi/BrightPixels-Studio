@@ -196,7 +196,7 @@ section {
 }
 .work-card {
     display: flex;
-    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
     gap: 1.5rem;
     margin-top: 2rem;
 }
@@ -207,6 +207,7 @@ section {
 }
 .service-card {
     background-color: var(--light-blue);
+    flex: 1 1 250px;
     border: 3px solid rgba(201,162,39,0.2);
     border-radius: 30px;
     padding: 40px 30px;
